@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<h1>Hi!</h1>
+
+<p>Hello</p>
+
+<ul>
+  <li>Winnie</li>
+  <li>Piglet</li>
+  <li>Eyeore</li>
+</ul>
+
+
+<footer>
+  <small>2016</small>
+</footer>
+
+<script>
+  var consoleName = function(e) {
+    console.log('my name is harry');
+  }
+
+
+//what is 'e'/ it is a variable name we made up, but it's the parameter
+//for the event object
+//this is declaring a function first
+
+  var head = document.querySelector('h1');
+  //this is passing that function as a callback
+  head.addEventListener('click', consoleName);
+
+}
+
+  //this is doing everything inline
+  //this is a callback
+  //or   document.querySelector('li').addEventListener('click'), function(e) {
+  //  console.log('you clicked me!');
+
+</script>
+
+</body>
+</html>
+
+
+
+
+

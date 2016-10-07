@@ -1,0 +1,40 @@
+#screen {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+#c {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  background: yellow;
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+}
+
+.calculator {
+  margin: 150px auto;
+  box-sizing: border-box;
+  width: 200px;
+  height: 350px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background: grey;
+  text-align: center;
+}
+
+input {
+  background: white;
+  width: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 6px;
+  margin: 2%;
+  padding: 5px;
+}
